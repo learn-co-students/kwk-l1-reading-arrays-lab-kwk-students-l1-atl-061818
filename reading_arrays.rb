@@ -8,11 +8,16 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  # Write a solution that returns the first student in the array student_names
+  current_idx = 0 
+  puts student.size 
+  while current_idx < student.size
+  current_student = student(current_idx)
+  puts "Student #(current_idx): at (current_student)"
+  current_idx += 1 
 end
 
 def fourth_student_by_index
-  # Write a solution that returns the first student in the array student_names
+  # Write a solution that returns the first student in the array studen
 end
 
 def last_student_by_index
